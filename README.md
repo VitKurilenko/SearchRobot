@@ -19,7 +19,7 @@ After that, open console and move to **SearchRobot** directory. To build the app
   jar -cmf manifest.mf searchrobot.jar -C bin .
 ```
 
-Finnaly, you can run the application with command:
+Finally, you can run the application with command:
 ```console
   java -jar searchrobot.jar
 ```
