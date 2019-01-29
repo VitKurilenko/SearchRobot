@@ -5,10 +5,10 @@ Test task for Java Incubator
 
 First of all, you should check data for connection to database. Open file **SearchRobot/src/searchrobot/GatewayDB.java** and edit fields:
 ```java
-DB_USER;
-DB_PASS;
-DB_CONNECTION; //edit hostname, port, database
-DB_TABLE;
+  DB_USER;
+  DB_PASS;
+  DB_CONNECTION; //edit hostname, port, database
+  DB_TABLE;
 ```
 
 After that, open console and move to **SearchRobot** directory. To build the application, enter in console:
