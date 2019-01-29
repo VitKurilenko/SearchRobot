@@ -10,7 +10,7 @@ DB_PASS;
 DB_CONNECTION; //edit hostname, port, database
 DB_TABLE;
 ```
-***
+
 After that, open console and move to **SearchRobot** directory. To build the application, enter in console:
 ```console
   javac -sourcepath src -d bin src/searchrobot/Main.java
@@ -18,7 +18,7 @@ After that, open console and move to **SearchRobot** directory. To build the app
   echo class-path: jdbc/postgresql.jar >>manifest.mf
   jar -cmf manifest.mf searchrobot.jar -C bin .
 ```
-***
+
 Finnaly, you can run the application with command:
 ```console
   java -jar searchrobot.jar
